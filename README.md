@@ -1,3 +1,9 @@
+# Fiona's Notes
+Publish to GitHub Pages
+```
+npx gh-pages -d dist
+```
+
 # Astro Starter Kit: Basics
 
 ```sh
