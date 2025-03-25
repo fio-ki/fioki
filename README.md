@@ -1,7 +1,6 @@
 # Fiona's Notes
 ### To Do
-- fav icon upgrade
-- add kofi link
+- good reads
 ### Coding stuff
 Publish to GitHub Pages
 ```
