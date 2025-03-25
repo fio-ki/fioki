@@ -1,4 +1,8 @@
 # Fiona's Notes
+### To Do
+- fav icon upgrade
+- add kofi link
+### Coding stuff
 Publish to GitHub Pages
 ```
 npx gh-pages -d dist

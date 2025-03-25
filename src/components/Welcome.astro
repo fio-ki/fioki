@@ -1,5 +1,6 @@
 ---
 import { Icon } from '@astrojs/starlight/components';
+import KoFiIcon from '../components/KoFiIcon';
 import mainImg from '../assets/clown.png';
 import background from '../assets/background.svg';
 ---
@@ -13,8 +14,9 @@ import background from '../assets/background.svg';
 				hi, i'm fioki
 			</h1>
 			<section id="links">
-				<a href="https://instagram.com/fiokii"><Icon name="instagram" size="2rem"/></a>
 				<a href="https://bsky.app/profile/fioki.net"><Icon name="blueSky" size="2rem"/></a>
+				<a href="https://instagram.com/fiokii"><Icon name="instagram" size="2rem"/></a>
+				<a href="https://ko-fi.com/fioki"><KoFiIcon client:only="react" /></a>
 			</section>
 		</section>
 	</main>

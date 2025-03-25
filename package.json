@@ -9,7 +9,10 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/react": "^4.2.1",
     "@astrojs/starlight": "^0.32.3",
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-react": "^2.3.0",
     "astro": "^5.5.3"
   }
 }
