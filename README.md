@@ -1,6 +1,10 @@
 # Fiona's Notes
 ### To Do
-- good reads
+- add fioki logo to navigation
+- about page
+- contact page
+- goodreads
+- gallery
 ### Coding stuff
 Publish to GitHub Pages
 ```

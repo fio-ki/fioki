@@ -13,6 +13,10 @@
     "@astrojs/starlight": "^0.32.3",
     "@coreui/icons": "^3.0.1",
     "@coreui/icons-react": "^2.3.0",
+    "@tailwindcss/vite": "^4.1.4",
     "astro": "^5.5.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.4"
   }
 }

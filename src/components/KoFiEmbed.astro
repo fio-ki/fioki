@@ -4,32 +4,26 @@ import KoFiIcon from '../components/KoFiIcon';
 import mainImg from '../assets/clown.png';
 import background from '../assets/background.svg';
 import "../styles/global.css";
-
 ---
-
 <div id="container">
 	<img id="background" src={background.src} alt="" fetchpriority="high" />
 	<main>
-		<section id="hero">
-			<img src={mainImg.src} width="250" alt="cute clown" />
-			<h1>
-				hi, i'm fioki
-			</h1>
-			<button class="bg-transparent hover:bg-neutral-900 text-neutral-900 font-semibold hover:text-white py-2 px-4 border border-neutral-900 hover:border-transparent rounded"
-			onclick="window.location.href='/shop'">
-				SHOP
-			  </button>
-			  
-			<section id="links">
-				<a href="https://bsky.app/profile/fioki.net"><Icon name="blueSky" size="2rem"/></a>
-				<a href="https://instagram.com/fiokii"><Icon name="instagram" size="2rem"/></a>
-				<a href="https://ko-fi.com/fioki"><KoFiIcon client:only="react" /></a>
-			</section>
-		</section>
+		<div id="kofi-shop-embed" data-shop-id="H2H2H1VMW" data-shop-theme="default" data-shop-soldout="show" data-shop-currency="$"></div>
 	</main>
+	<footer>
+		<section id="links">
+			<a href="https://bsky.app/profile/fioki.net"><Icon name="blueSky" size="2rem"/></a>
+			<a href="https://instagram.com/fiokii"><Icon name="instagram" size="2rem"/></a>
+			<a href="https://ko-fi.com/fioki"><KoFiIcon client:only="react" /></a>
+		</section>
+	</footer>
 </div>
 
+<script src="https://embed.ko-fi.tools/js/shop.js" defer></script>
 <style>
+	.powered-by-kofi-tools {
+		display: hidden;
+	}
 	#background {
 		position: fixed;
 		top: 0;
@@ -43,10 +37,11 @@ import "../styles/global.css";
 	#container {
 		font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 		height: 100%;
+		display: flex;
+		flex-direction: column;
 	}
 
 	main {
-		height: 100%;
 		display: flex;
 		justify-content: center;
 	}
@@ -60,7 +55,7 @@ import "../styles/global.css";
 
 	h1 {
 		font-size: 22px;
-		margin: 0.25em;
+		margin-top: 0.25em;
 		text-align: center;
 	}
 
@@ -68,6 +63,7 @@ import "../styles/global.css";
 		display: flex;
 		gap: 16px;
 		justify-content: center;
+		margin-top: 5em;
 	}
 
 	#links a {
